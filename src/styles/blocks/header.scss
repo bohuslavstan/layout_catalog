@@ -26,6 +26,9 @@
     display: flex;
     gap: 20px;
     margin-left: 243px;
+    &-list {
+      list-style: none;
+    }
     &-link {
       position: relative;
 
