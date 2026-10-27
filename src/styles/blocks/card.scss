@@ -113,11 +113,19 @@
     letter-spacing: 0%;
 
     background-color: $color-blue;
-    &:hover {
-      box-sizing: border-box;
-      border: 1px solid $color-blue;
-      color: $color-blue;
-      background-color: $color-white;
-    }
+  }
+
+  &:hover {
+    transform: scale(1.2);
+  }
+  &__title:hover {
+    color: #34568b;
+  }
+
+  &__button:hover {
+    box-sizing: border-box;
+    border: 1px solid $color-blue;
+    color: $color-blue;
+    background-color: $color-white;
   }
 }
